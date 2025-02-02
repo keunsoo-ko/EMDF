@@ -12,3 +12,9 @@ Download repository:
     $ git clone https://github.com/keunsoo-ko/EMDF.git
 ```
 Download [pre-trained model on Places2](https://www.dropbox.com/scl/fi/6bptz5bote44nezl2ab0u/Places2.pth?rlkey=tb9z07s2t9l5lkg8aj392ph7z&st=c327zq2e&dl=0) or [pre-trained model on CelebA](https://www.dropbox.com/scl/fi/w8drq1m488o4tya7hx8z1/CelebA.pth?rlkey=4onc3cse5fwt053bk48zyje0i&st=dxjq4aw7&dl=0)
+
+### Usage
+Run Test:
+```
+    $ python demo.py --ckpt your_(ckpt)file_name.pth(put downloaded model path) --path ./example/Places2 --output_path ./results
+```
